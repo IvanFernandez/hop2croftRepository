@@ -1,0 +1,717 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Unit Test Results</title>
+<style type="text/css">
+      body {
+        font:normal 68% verdana,arial,helvetica;
+        color:#000000;
+      }
+      table tr td, table tr th {
+          font-size: 68%;
+      }
+      table.details tr th{
+        font-weight: bold;
+        text-align:left;
+        background:#a6caf0;
+      }
+      table.details tr td{
+        background:#eeeee0;
+      }
+      
+      p {
+        line-height:1.5em;
+        margin-top:0.5em; margin-bottom:1.0em;
+      }
+      h1 {
+        margin: 0px 0px 5px; font: 165% verdana,arial,helvetica
+      }
+      h2 {
+        margin-top: 1em; margin-bottom: 0.5em; font: bold 125% verdana,arial,helvetica
+      }
+      h3 {
+        margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica
+      }
+      h4 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h5 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      h6 {
+        margin-bottom: 0.5em; font: bold 100% verdana,arial,helvetica
+      }
+      .Error {
+        font-weight:bold; color:red;
+      }
+      .Failure {
+        font-weight:bold; color:purple;
+      }
+      .Properties {
+        text-align:right;
+      }
+      </style>
+<script type="text/javascript" language="JavaScript">
+        var TestCases = new Array();
+        var cur;
+        
+    cur = TestCases['com.hopcroft.selenium.AccederAdictosDesdeGoogleTest'] = new Array();
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/b-/b-fFBLPlHLqj6XXjLDatP++++TI/-Tmp-/';
+    
+        cur['java.library.path'] = '.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_26-b03-384-9M3425';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_26';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.1-b02-384';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['localRepository'] = '/Users/Ivan/.m2/repository';
+    
+        cur['mrj.build'] = '9M3425';
+    
+        cur['mrj.version'] = '1050.1.6.0_26-384';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.5.8';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire7626631342684473921tmp /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire1704481623960787190tmp';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['surefire.real.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar';
+    
+        cur['surefire.test.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:';
+    
+        cur['user.country'] = 'ES';
+    
+        cur['user.dir'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc';
+    
+        cur['user.home'] = '/Users/Ivan';
+    
+        cur['user.language'] = 'es';
+    
+        cur['user.name'] = 'Ivan';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['com.hopcroft.selenium.CarFormSeleniumTest'] = new Array();
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/b-/b-fFBLPlHLqj6XXjLDatP++++TI/-Tmp-/';
+    
+        cur['java.library.path'] = '.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_26-b03-384-9M3425';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_26';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.1-b02-384';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['localRepository'] = '/Users/Ivan/.m2/repository';
+    
+        cur['mrj.build'] = '9M3425';
+    
+        cur['mrj.version'] = '1050.1.6.0_26-384';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.5.8';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire7626631342684473921tmp /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire1704481623960787190tmp';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['surefire.real.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar';
+    
+        cur['surefire.test.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:';
+    
+        cur['user.country'] = 'ES';
+    
+        cur['user.dir'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc';
+    
+        cur['user.home'] = '/Users/Ivan';
+    
+        cur['user.language'] = 'es';
+    
+        cur['user.name'] = 'Ivan';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['com.hopcroft.selenium.ChromeTest'] = new Array();
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/b-/b-fFBLPlHLqj6XXjLDatP++++TI/-Tmp-/';
+    
+        cur['java.library.path'] = '.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_26-b03-384-9M3425';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_26';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.1-b02-384';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['localRepository'] = '/Users/Ivan/.m2/repository';
+    
+        cur['mrj.build'] = '9M3425';
+    
+        cur['mrj.version'] = '1050.1.6.0_26-384';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.5.8';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire7626631342684473921tmp /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire1704481623960787190tmp';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['surefire.real.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar';
+    
+        cur['surefire.test.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:';
+    
+        cur['user.country'] = 'ES';
+    
+        cur['user.dir'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc';
+    
+        cur['user.home'] = '/Users/Ivan';
+    
+        cur['user.language'] = 'es';
+    
+        cur['user.name'] = 'Ivan';
+    
+        cur['user.timezone'] = '';
+    
+    cur = TestCases['com.hopcroft.selenium.SeleniumHelloWorldExampleTest'] = new Array();
+    
+        cur['awt.nativeDoubleBuffering'] = 'true';
+    
+        cur['awt.toolkit'] = 'apple.awt.CToolkit';
+    
+        cur['basedir'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc';
+    
+        cur['file.encoding'] = 'MacRoman';
+    
+        cur['file.encoding.pkg'] = 'sun.io';
+    
+        cur['file.separator'] = '/';
+    
+        cur['ftp.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['gopherProxySet'] = 'false';
+    
+        cur['http.nonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['java.awt.graphicsenv'] = 'apple.awt.CGraphicsEnvironment';
+    
+        cur['java.awt.printerjob'] = 'apple.awt.CPrinterJob';
+    
+        cur['java.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:';
+    
+        cur['java.class.version'] = '50.0';
+    
+        cur['java.endorsed.dirs'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed';
+    
+        cur['java.ext.dirs'] = '/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext';
+    
+        cur['java.home'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home';
+    
+        cur['java.io.tmpdir'] = '/var/folders/b-/b-fFBLPlHLqj6XXjLDatP++++TI/-Tmp-/';
+    
+        cur['java.library.path'] = '.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java';
+    
+        cur['java.runtime.name'] = 'Java(TM) SE Runtime Environment';
+    
+        cur['java.runtime.version'] = '1.6.0_26-b03-384-9M3425';
+    
+        cur['java.specification.name'] = 'Java Platform API Specification';
+    
+        cur['java.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.specification.version'] = '1.6';
+    
+        cur['java.vendor'] = 'Apple Inc.';
+    
+        cur['java.vendor.url'] = 'http://www.apple.com/';
+    
+        cur['java.vendor.url.bug'] = 'http://bugreport.apple.com/';
+    
+        cur['java.version'] = '1.6.0_26';
+    
+        cur['java.vm.info'] = 'mixed mode';
+    
+        cur['java.vm.name'] = 'Java HotSpot(TM) 64-Bit Server VM';
+    
+        cur['java.vm.specification.name'] = 'Java Virtual Machine Specification';
+    
+        cur['java.vm.specification.vendor'] = 'Sun Microsystems Inc.';
+    
+        cur['java.vm.specification.version'] = '1.0';
+    
+        cur['java.vm.vendor'] = 'Apple Inc.';
+    
+        cur['java.vm.version'] = '20.1-b02-384';
+    
+        cur['line.separator'] = ' ';
+    
+        cur['localRepository'] = '/Users/Ivan/.m2/repository';
+    
+        cur['mrj.build'] = '9M3425';
+    
+        cur['mrj.version'] = '1050.1.6.0_26-384';
+    
+        cur['os.arch'] = 'x86_64';
+    
+        cur['os.name'] = 'Mac OS X';
+    
+        cur['os.version'] = '10.5.8';
+    
+        cur['path.separator'] = ':';
+    
+        cur['socksNonProxyHosts'] = 'local|*.local|169.254/16|*.169.254/16';
+    
+        cur['sun.arch.data.model'] = '64';
+    
+        cur['sun.boot.class.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar';
+    
+        cur['sun.boot.library.path'] = '/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries';
+    
+        cur['sun.cpu.endian'] = 'little';
+    
+        cur['sun.cpu.isalist'] = '';
+    
+        cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
+    
+        cur['sun.java.command'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire7626631342684473921tmp /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire1704481623960787190tmp';
+    
+        cur['sun.java.launcher'] = 'SUN_STANDARD';
+    
+        cur['sun.jnu.encoding'] = 'MacRoman';
+    
+        cur['sun.management.compiler'] = 'HotSpot 64-Bit Tiered Compilers';
+    
+        cur['sun.os.patch.level'] = 'unknown';
+    
+        cur['surefire.real.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar';
+    
+        cur['surefire.test.class.path'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:';
+    
+        cur['user.country'] = 'ES';
+    
+        cur['user.dir'] = '/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc';
+    
+        cur['user.home'] = '/Users/Ivan';
+    
+        cur['user.language'] = 'es';
+    
+        cur['user.name'] = 'Ivan';
+    
+        cur['user.timezone'] = '';
+    </script><script type="text/javascript" language="JavaScript">
+        function displayProperties (name) {
+          var win = window.open('','JUnitSystemProperties','scrollbars=1,resizable=1');
+          var doc = win.document.open();
+          doc.write("<html><head><title>Properties of " + name + "</title>");
+          doc.write("<style>")
+          doc.write("body {font:normal 68% verdana,arial,helvetica; color:#000000; }");
+          doc.write("table tr td, table tr th { font-size: 68%; }");
+          doc.write("table.properties { border-collapse:collapse; border-left:solid 1 #cccccc; border-top:solid 1 #cccccc; padding:5px; }");
+          doc.write("table.properties th { text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#eeeeee; }");
+          doc.write("table.properties td { font:normal; text-align:left; border-right:solid 1 #cccccc; border-bottom:solid 1 #cccccc; background-color:#fffffff; }");
+          doc.write("h3 { margin-bottom: 0.5em; font: bold 115% verdana,arial,helvetica }");
+          doc.write("</style>");
+          doc.write("</head><body>");
+          doc.write("<h3>Properties of " + name + "</h3>");
+          doc.write("<div align=\"right\"><a href=\"javascript:window.close();\">Close</a></div>");
+          doc.write("<table class='properties'>");
+          doc.write("<tr><th>Name</th><th>Value</th></tr>");
+          for (prop in TestCases[name]) {
+            doc.write("<tr><th>" + prop + "</th><td>" + TestCases[name][prop] + "</td></tr>");
+          }
+          doc.write("</table>");
+          doc.write("</body></html>");
+          doc.close();
+          win.focus();
+        }
+        
+      </script>
+</head>
+<body>
+<a name="top"></a>
+<h1>Unit Test Results</h1>
+<table width="100%">
+<tr>
+<td align="left"></td><td align="right">Designed for use with <a href="http://www.junit.org">JUnit</a> and <a href="http://jakarta.apache.org/ant">Ant</a>.</td>
+</tr>
+</table>
+<hr size="1">
+<h2>Summary</h2>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Tests</th><th>Failures</th><th>Errors</th><th>Success rate</th><th>Time</th>
+</tr>
+<tr valign="top" class="">
+<td>4</td><td>0</td><td>0</td><td>100.00%</td><td>16.095</td>
+</tr>
+</table>
+<table border="0" width="95%">
+<tr>
+<td style="text-align: justify;">
+        Note: <i>failures</i> are anticipated and checked for with assertions while <i>errors</i> are unanticipated.
+        </td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<h2>Packages</h2>
+        Note: package statistics are not computed recursively, they only sum up all of its testsuites numbers.
+        <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#com.hopcroft.selenium">com.hopcroft.selenium</a></td><td>4</td><td>0</td><td>0</td><td>16.095</td>
+</tr>
+</table>
+<hr size="1" width="95%" align="left">
+<a name="com.hopcroft.selenium"></a>
+<h3>Package com.hopcroft.selenium</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td><a href="#AccederAdictosDesdeGoogleTest">AccederAdictosDesdeGoogleTest</a></td><td>1</td><td>0</td><td>0</td><td>0.117</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#CarFormSeleniumTest">CarFormSeleniumTest</a></td><td>1</td><td>0</td><td>0</td><td>0.010</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#ChromeTest">ChromeTest</a></td><td>1</td><td>0</td><td>0</td><td>0.008</td>
+</tr>
+<tr valign="top" class="">
+<td><a href="#SeleniumHelloWorldExampleTest">SeleniumHelloWorldExampleTest</a></td><td>1</td><td>0</td><td>0</td><td>15.960</td>
+</tr>
+</table>
+<a href="#top">Back to top</a>
+<p></p>
+<p></p>
+<hr size="1" width="95%" align="left">
+<a name="AccederAdictosDesdeGoogleTest"></a>
+<h3>TestCase AccederAdictosDesdeGoogleTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>com.hopcroft.selenium.AccederAdictosDesdeGoogleTest</td><td>Success</td><td></td><td>0.000</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.hopcroft.selenium.AccederAdictosDesdeGoogleTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="CarFormSeleniumTest"></a>
+<h3>TestCase CarFormSeleniumTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>com.hopcroft.selenium.CarFormSeleniumTest</td><td>Success</td><td></td><td>0.042</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.hopcroft.selenium.CarFormSeleniumTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="ChromeTest"></a>
+<h3>TestCase ChromeTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>com.hopcroft.selenium.ChromeTest</td><td>Success</td><td></td><td>0.055</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.hopcroft.selenium.ChromeTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a><a name="SeleniumHelloWorldExampleTest"></a>
+<h3>TestCase SeleniumHelloWorldExampleTest</h3>
+<table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
+<tr valign="top">
+<th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
+</tr>
+<tr valign="top" class="">
+<td>testCarFormSelenium</td><td>Success</td><td></td><td>15.930</td>
+</tr>
+</table>
+<div class="Properties">
+<a href="javascript:displayProperties('com.hopcroft.selenium.SeleniumHelloWorldExampleTest');">
+                    Properties &raquo;
+                </a>
+</div>
+<p></p>
+<a href="#top">Back to top</a>
+</body>
+</html>

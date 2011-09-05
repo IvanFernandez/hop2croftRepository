@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.01" errors="0" skipped="1" tests="1" name="com.hopcroft.selenium.CarFormSeleniumTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.1-b02-384"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="9M3425"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc"/>
+    <property name="java.runtime.version" value="1.6.0_26-b03-384-9M3425"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/b-/b-fFBLPlHLqj6XXjLDatP++++TI/-Tmp-/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.5.8"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Ivan"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="Ivan"/>
+    <property name="java.class.path" value="/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/test-classes:/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/classes:/Users/Ivan/.m2/repository/org/springframework/spring-core/2.5.6/spring-core-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-webmvc/2.5.6/spring-webmvc-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-beans/2.5.6/spring-beans-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context/2.5.6/spring-context-2.5.6.jar:/Users/Ivan/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/Ivan/.m2/repository/org/springframework/spring-context-support/2.5.6/spring-context-support-2.5.6.jar:/Users/Ivan/.m2/repository/org/springframework/spring-web/2.5.6/spring-web-2.5.6.jar:/Users/Ivan/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Ivan/.m2/repository/taglibs/standard/1.1.2/standard-1.1.2.jar:/Users/Ivan/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar:/Users/Ivan/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-java/2.5.0/selenium-java-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-android-driver/2.5.0/selenium-android-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-htmlunit-driver/2.5.0/selenium-htmlunit-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-api/2.5.0/selenium-api-2.5.0.jar:/Users/Ivan/.m2/repository/com/google/guava/guava/r09/guava-r09.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit/2.9/htmlunit-2.9.jar:/Users/Ivan/.m2/repository/xalan/xalan/2.7.1/xalan-2.7.1.jar:/Users/Ivan/.m2/repository/xalan/serializer/2.7.1/serializer-2.7.1.jar:/Users/Ivan/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/Users/Ivan/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpmime/4.1.2/httpmime-4.1.2.jar:/Users/Ivan/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/Users/Ivan/.m2/repository/net/sourceforge/htmlunit/htmlunit-core-js/2.9/htmlunit-core-js-2.9.jar:/Users/Ivan/.m2/repository/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar:/Users/Ivan/.m2/repository/xml-apis/xml-apis/1.3.04/xml-apis-1.3.04.jar:/Users/Ivan/.m2/repository/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15.jar:/Users/Ivan/.m2/repository/net/sourceforge/cssparser/cssparser/0.9.5/cssparser-0.9.5.jar:/Users/Ivan/.m2/repository/org/w3c/css/sac/1.3/sac-1.3.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpclient/4.1.2/httpclient-4.1.2.jar:/Users/Ivan/.m2/repository/org/apache/httpcomponents/httpcore/4.1.2/httpcore-4.1.2.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.5.0/selenium-ie-driver-2.5.0.jar:/Users/Ivan/.m2/repository/net/java/dev/jna/jna/3.3.0/jna-3.3.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-iphone-driver/2.5.0/selenium-iphone-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-support/2.5.0/selenium-support-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.5.0/selenium-firefox-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/2.5.0/selenium-remote-driver-2.5.0.jar:/Users/Ivan/.m2/repository/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar:/Users/Ivan/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Ivan/.m2/repository/commons-io/commons-io/2.0.1/commons-io-2.0.1.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.5.0/selenium-chrome-driver-2.5.0.jar:/Users/Ivan/.m2/repository/org/seleniumhq/selenium/selenium-server/2.5.0/selenium-server-2.5.0.jar:/Users/Ivan/.m2/repository/bouncycastle/bcprov-jdk15/135/bcprov-jdk15-135.jar:/Users/Ivan/.m2/repository/mx4j/mx4j-tools/3.0.1/mx4j-tools-3.0.1.jar:/Users/Ivan/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.9/servlet-api-2.5-6.1.9.jar:/Users/Ivan/.m2/repository/org/yaml/snakeyaml/1.8/snakeyaml-1.8.jar:/Users/Ivan/.m2/repository/junit/junit/4.8/junit-4.8.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefirebooter3387063371408598621.jar /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire7626631342684473921tmp /Users/Ivan/Documents/workspace-sts-2.7.1.RELEASE/spring-mvc/target/surefire/surefire1704481623960787190tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_26"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/Ivan/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1050.1.6.0_26-384"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.042" classname="com.hopcroft.selenium.CarFormSeleniumTest" name="com.hopcroft.selenium.CarFormSeleniumTest">
+    <skipped/>
+  </testcase>
+</testsuite>
