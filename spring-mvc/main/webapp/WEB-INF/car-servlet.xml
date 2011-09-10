@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+	<!-- importamos el fichero de configuración para los servicios -->
+	<import resource="spring/car-service.xml"></import>
+
+	<!-- context:annotation-config sirve para utilizar anotaciones como Autowired 
+		ó Required. En nuestro caso se usa @Autowired del servicio en el CarController -->
+	<context:annotation-config />
+
+	<!-- mapping request-controller para el DispatcherServlet para car -->
+	<bean name="/car.html" class="com.hopcroft.controller.CarController"></bean>
+	<!-- mapping request para el resto de páginas como carFormController -->
+	<bean
+		class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping">
+		<property name="caseSensitive" value="true" />
+	</bean>
+
+
+	<!-- Resolucion de la parte de vista por parte del DispatcherServlet -->
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/"></property>
+		<property name="suffix" value=".jsp"></property>
+		<property name="order" value="1" />
+	</bean>
+	<!-- resolución de vista para redirects -->
+<!-- 	<bean class="org.springframework.web.servlet.view.ResourceBundleViewResolver"> -->
+<!-- 		<property name="basename" value="views" /> -->
+<!-- 		<property name="order" value="0" /> -->
+<!-- 	</bean> -->
+
+	<!-- Tratamiento de handlers -->
+	<!-- Declaramos nuestro interceptor -->
+	<bean id="timeResponseInterceptor" class="com.hopcroft.interceptor.TimeResponseInterceptor"></bean>
+	<!-- Asignamos a nuestros mappings el interceptor recién declarado -->
+	<bean
+		class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping">
+		<property name="interceptors">
+			<list>
+				<ref bean="timeResponseInterceptor"></ref>
+				<!-- <ref bean="localeChangeInterceptor"></ref> -->
+			</list>
+		</property>
+	</bean>
+	<!-- Fin de Tratamiento de handlers -->
+
+	<!-- Tratamiento de excepciones -->
+	<bean
+		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		<property name="exceptionMappings">
+			<props>
+				<prop key="com.hopcroft.exception.CarException">carsNotAvailable</prop>
+				<prop key="java.lang.Exception">error</prop>
+			</props>
+		</property>
+	</bean>
+	<!-- Fin de Tratamiento de excepciones -->
+
+
+	<!-- FormController -->
+	<bean id="carFormController" class="com.hopcroft.controller.CarFormController">
+		<property name="carService" ref="carService"></property>
+		<property name="formView" value="carForm"></property>
+		<property name="successView" value="carInsertSuccess"></property>
+<!-- 		<property name="successView" value="carInsertSuccessRedirect"></property> -->
+
+	</bean>
+
+
+<!-- 	<bean id="carSuccessController" -->
+<!-- 		class="org.springframework.web.servlet.mvc.ParameterizableViewController"> -->
+<!-- 		<property name="viewName" value="carInsertSuccess"></property> -->
+<!-- 	</bean> -->
+
+<!-- 	<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping"> -->
+<!-- 		<property name="mappings"> -->
+<!-- 			<props> -->
+<!-- 				<prop key="/carInsertSuccess.htm">carSuccessController</prop> -->
+<!-- 			</props> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+
+	<!-- Vista parametrizada para un controlador -->
+	<!-- <bean id="about" -->
+	<!-- class="org.springframework.web.servlet.mvc.ParameterizableViewController"> -->
+	<!-- <property name="viewName" value="about" /> -->
+	<!-- </bean> -->
+
+</beans>
